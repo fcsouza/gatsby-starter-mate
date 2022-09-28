@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - contentful > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-plugin-offline > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-source-contentful > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-transformer-remark > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - inquirer > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - contentful > contentful-resolve-response > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - contentful > contentful-sdk-core > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-plugin-offline > cheerio > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-source-contentful > contentful > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-source-contentful > deep-map > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-source-contentful > gatsby-plugin-sharp > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - styled-components > @babel/traverse > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-source-contentful > contentful > contentful-resolve-response > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-source-contentful > contentful > contentful-sdk-core > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - gatsby-source-contentful > gatsby-plugin-sharp > async > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
+    - styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-09-28T09:48:01.671Z'
